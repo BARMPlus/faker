@@ -35,6 +35,7 @@
     "vendor"
   ],
   "scripts": {
+    "debug": "cypress cache path",
     "preinstall": "npx only-allow pnpm",
     "build": "tsc",
     "browser": "gulp browser",
